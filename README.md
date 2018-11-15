@@ -3,7 +3,9 @@ Implementation of a stack using Verilog hardware definitions. The circuit diagra
 
 ## Building the code
 This command generated the VCD file for viewing on GTKWave.
-```iverilog stack3.v -o stack3 reg.v lib.v alu.v tb_stack3_el.v && vvp stack3```
+
+```iverilog stack4.v -o stack4 reg.v lib.v alu.v tb_stack4_el.v && vvp stack4```
 
 This command is to open GTKWave.
-```gtkwave tb_stack3.vcd```
+
+```gtkwave tb_stack4.vcd```
